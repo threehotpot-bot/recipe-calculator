@@ -1,0 +1,2078 @@
+[
+  {
+    "id": "recipe-1759945949428",
+    "name": "🥬 炝拌圆白菜",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "圆白菜",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "杀水盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "第一阶段：杀水阶段"
+      },
+      {
+        "name": "糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "第二阶段：制作阶段"
+      },
+      {
+        "name": "香油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "第二阶段：制作阶段"
+      },
+      {
+        "name": "胡辣油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "第二阶段：制作阶段"
+      }
+    ],
+    "steps": [
+      "第一阶段：圆白菜洗净切麻将块；放杀水盐{杀水盐}拌匀，静置30分钟冷藏并杀水。",
+      "第二阶段：加入糖{糖}、香油{香油}、胡辣油{胡辣油}拌匀；装盘即可。"
+    ],
+    "created_at": "2025-10-08T17:52:29.428Z",
+    "updated_at": "2025-10-16T17:58:52.595Z"
+  },
+  {
+    "id": "recipe-1759947712556",
+    "name": "🌶 胡辣油",
+    "category": "调料",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "大豆油",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "干辣椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "红花椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "葱段",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "姜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "醋",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "建议每次用2000g大豆油制作",
+      "大豆油加热，八档大火加热五分钟至160℃（筷子入油小泡稀疏）。",
+      "转到两档小火",
+      "先放葱段和姜片炸制边缘金黄",
+      "一次性倒入干辣椒{干辣椒}、红花椒{红花椒}，迅速搅拌10分钟至深红色。",
+      "关火放醋搅拌",
+      "放凉常温保存一个月。"
+    ],
+    "created_at": "2025-10-08T18:21:52.556Z",
+    "updated_at": "2025-10-31T11:48:56.979Z"
+  },
+  {
+    "id": "recipe-1759953027576",
+    "name": "🥕 糖醋萝卜片",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "杀水前的带皮白萝卜片",
+        "unit": "g",
+        "water_loss_pct": 0.2
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "糖杀水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "60 分钟杀水阶段"
+      },
+      {
+        "name": "生抽",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "醋",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "调味白糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "调味阶段"
+      },
+      {
+        "name": "生姜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "切片"
+      },
+      {
+        "name": "蒜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "切片"
+      }
+    ],
+    "steps": [
+      "白萝卜洗净不去皮，切去头尾，切成 2–3mm 薄片；",
+      "加入糖杀水 {糖杀水} 抓拌均匀，静置腌制 1 小时杀水。",
+      "挤干水分（不可冲洗）；",
+      "加入生抽 {生抽}、醋 {醋}、调味白糖 {调味白糖}、生姜片 {生姜}、大蒜片 {蒜片}、 拌匀；",
+      "腌 30 分钟后即可食用。"
+    ],
+    "created_at": "2025-10-08T19:50:27.576Z",
+    "updated_at": "2025-10-24T18:25:10.569Z"
+  },
+  {
+    "id": "recipe-1759997321162",
+    "name": "🍃 芹菜腐竹",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "泡发后腐竹",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "芹菜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 100
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "去叶斜切"
+      },
+      {
+        "name": "胡辣油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 11.6
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.8
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "味精",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "白糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "鸡粉",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "香油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2.4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "2袋腐竹放纯净水用半球锅加热15分钟关火",
+      "泡30分钟以上可以制作"
+    ],
+    "created_at": "2025-10-09T08:08:41.162Z",
+    "updated_at": "2025-10-16T17:56:33.477Z"
+  },
+  {
+    "id": "recipe-1759998104406",
+    "name": "🥒 酸辣瓜条",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "黄瓜",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "鸡粉",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "味精",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.8
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "白糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 3.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "手工醋",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "一品鲜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 12
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "拌菜油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "大蒜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "切片"
+      },
+      {
+        "name": "小米椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 3
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "切元宝片"
+      }
+    ],
+    "steps": [],
+    "created_at": "2025-10-09T08:21:44.407Z",
+    "updated_at": "2025-10-09T16:16:38.502Z"
+  },
+  {
+    "id": "recipe-1759998532829",
+    "name": "🫘 辣条豆腐丝",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "千张",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 16.7
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "鸡粉",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "味精",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.7
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1.3
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "拌菜油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 3.3
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "红油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1.3
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "大葱",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "切元宝片"
+      }
+    ],
+    "steps": [],
+    "created_at": "2025-10-09T08:28:52.829Z",
+    "updated_at": "2025-10-09T16:16:53.026Z"
+  },
+  {
+    "id": "recipe-1759998679999",
+    "name": "🌊 酸辣海带丝",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "泡发后海带丝",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "鸡粉",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "味精",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.8
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "白糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 3.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "手工醋",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "一品鲜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 12
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "拌菜油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "大蒜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "切片"
+      },
+      {
+        "name": "小米椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 3
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "切元宝片"
+      }
+    ],
+    "steps": [
+      "建议每次泡发300g干海带丝",
+      "取干海带丝泡水60分钟以上，并清洗至无粘液",
+      "沥干水分进行制作"
+    ],
+    "created_at": "2025-10-09T08:31:19.999Z",
+    "updated_at": "2025-10-16T18:04:12.057Z"
+  },
+  {
+    "id": "recipe-1760025985395",
+    "name": "🥕 酸辣萝卜条",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "杀水前的带皮白萝卜条",
+        "unit": "g",
+        "water_loss_pct": 0.2
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "盐杀水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "30 分钟杀水阶段"
+      },
+      {
+        "name": "白糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 8
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "醋",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "大蒜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "切蒜片"
+      },
+      {
+        "name": "干辣椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "白萝卜削皮洗净切条。",
+      "加杀水盐{盐杀水}抓匀杀水；静置30分钟出水。",
+      "倒去出水沥干。",
+      "放白糖{白糖}、醋{醋}、蒜片{大蒜}、干辣椒{干辣椒}、盐{盐}；调匀。",
+      "将萝卜冷藏腌制12小时起食；48小时最佳口感。"
+    ],
+    "created_at": "2025-10-09T16:06:25.395Z",
+    "updated_at": "2025-10-24T18:25:27.078Z"
+  },
+  {
+    "id": "recipe-1760037386175",
+    "name": "🥕 泡菜萝卜",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "杀水前的带皮白萝卜条",
+        "unit": "g",
+        "water_loss_pct": 0.2
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "杀水盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "杀水阶段"
+      },
+      {
+        "name": "纯净水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 50
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "泡菜水用"
+      },
+      {
+        "name": "冰糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 8
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "泡菜水用"
+      },
+      {
+        "name": "盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "泡菜水用"
+      },
+      {
+        "name": "白醋",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 20
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "泡菜水用 沸腾后关火放"
+      },
+      {
+        "name": "姜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "蒜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "小米椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "八角",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "桂皮",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "花椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "高度白酒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "选用带皮白萝卜。",
+      "切成均匀长条。",
+      "称取萝卜条{100g}。",
+      "加入食盐{1.25g}。",
+      "轻轻撒水并翻拌均匀。",
+      "静置{30分钟}杀出水分。",
+      "沥干备用。",
+      "取开水{25g}。",
+      "加入冰糖{2g}。",
+      "加入食盐{0.4g}。",
+      "沸腾后关火。",
+      "加入白醋{5g}搅匀。",
+      "放凉备用。",
+      "准备料头：",
+      "生姜片{1g}、蒜片{1g}、小米辣{0.5g}。",
+      "加入八角{1/10颗}、桂皮{极少量}、花椒{1~2粒}。",
+      "准备无油无水的玻璃罐。",
+      "放入沥干的萝卜条。",
+      "加入所有料头与香料。",
+      "倒入凉透的料水（需没过萝卜）。",
+      "滴入白酒{1滴}防腐。",
+      "密封罐口。",
+      "置于阴凉处静置{3~4小时}后食用。",
+      "保持全程无油无水。",
+      "料水必须彻底放凉。",
+      "盐渍出水是脆口关键。"
+    ],
+    "created_at": "2025-10-09T19:16:26.175Z",
+    "updated_at": "2025-11-04T11:00:12.650Z"
+  },
+  {
+    "id": "recipe-1760985754337",
+    "name": "🥩 卤肉加汤",
+    "category": "炖品",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "2500g2695g",
+        "name": "纯净水（2500g 的肉放 2695g 水）",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "卤肉料",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 14
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "大豆油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 11
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "肉冷水下锅焯水",
+      "捞出放入烧开的剩余卤肉汤中",
+      "加纯净水到刚好盖过肉品",
+      "补充与纯净水配套的卤肉料和大豆油",
+      "开锅后计时 60 分钟后关火"
+    ],
+    "created_at": "2025-10-20T18:42:34.337Z",
+    "updated_at": "2025-10-20T18:51:56.125Z"
+  },
+  {
+    "id": "recipe-1760986020479",
+    "name": "🥩 首次卤肉汤",
+    "category": "炖品",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "肉",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "纯净水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 108
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "卤肉料",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 15
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "大豆油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 12
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "肉冷水下锅焯水",
+      "捞出放入烧开的卤肉汤中",
+      "开锅后计时 60 分钟后关火"
+    ],
+    "created_at": "2025-10-20T18:47:00.479Z",
+    "updated_at": "2025-10-20T18:52:04.511Z"
+  },
+  {
+    "id": "recipe-1761073617038",
+    "name": "🍋 糟粕醋蘸料",
+    "category": "调料",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "李锦记薄盐生抽",
+        "name": "李锦记薄盐生抽",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "纯净水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 70
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "沙茶酱",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [],
+    "created_at": "2025-10-21T19:06:57.038Z"
+  },
+  {
+    "id": "recipe-1761235958058",
+    "name": "🐷 熬制猪油",
+    "category": "调料",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "猪板油",
+        "unit": "g",
+        "water_loss_pct": 0.304
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "纯净水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "切小块：猪板油切约2cm块",
+      "冷锅下油 + 加水：2档火慢慢加热，直到水分蒸发",
+      "3档火炼油：油渣开始变金黄",
+      "离火过滤：用滤布过滤出清亮油脂",
+      "冷却保存：室温放凉后密封，可冷藏 1 周或冷冻 1 个月"
+    ],
+    "created_at": "2025-10-23T16:12:38.058Z",
+    "updated_at": "2025-10-24T18:11:55.822Z"
+  },
+  {
+    "id": "recipe-1761236606851",
+    "name": "🧄 九州久留米黑蒜油",
+    "category": "调料",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "熟猪油",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "葱白",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 10
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "姜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "大蒜末",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 50
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "芝麻香油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 20
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "不能早放，60到80度放"
+      }
+    ],
+    "steps": [
+      "将熟猪油放入不锈钢锅中，务必4档小火加热至约120到130度。",
+      "加入葱白和姜片炸制金黄干枯，食材周边没有气泡后捞出。",
+      "加入切碎的大蒜末，持续搅拌，保持油温稳定，防止局部过热。",
+      "观察蒜末由浅黄变金黄，再变成深褐色时，立即关火。电磁炉3档≈10分钟",
+      "利用余温继续搅拌，让蒜末颜色均匀、香气充分释放。",
+      "待油温自然下降到80到100度之间时，加入芝麻香油搅匀。关火≈6 分钟后油温降到 100 度左右",
+      "放凉后密封，避光冷藏保存 7 天/冷冻保存 30 天。"
+    ],
+    "created_at": "2025-10-23T16:23:26.851Z",
+    "updated_at": "2025-10-29T17:43:47.493Z"
+  },
+  {
+    "id": "recipe-1761237128231",
+    "name": "🇯🇵 酱油味底",
+    "category": "调料",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "草菇老抽",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "生抽",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 50
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "上海黄酒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 50
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "冰糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 13
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "“黄油”",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "虾皮",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "姜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "纯净水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 100
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "将老抽、生抽、上海黄酒、冰糖和纯净水一同倒入不锈钢锅中。",
+      "加入姜片、虾皮和“黄油”，搅拌均匀。",
+      "开中小火加热至微沸（约90℃），保持轻微冒泡状态。",
+      "维持微沸约10分钟，让冰糖完全融化，虾皮与姜香充分释放。",
+      "关火后静置5分钟，让调味料自然沉降。",
+      "用细滤网或卤料包过滤，取清亮液体装瓶。",
+      "冷却至室温后密封保存，放入冷藏室（0～4℃）保存 7 天、冷冻保存 30 天。"
+    ],
+    "created_at": "2025-10-23T16:32:08.231Z",
+    "updated_at": "2025-10-29T17:42:51.435Z"
+  },
+  {
+    "id": "recipe-1761326913291",
+    "name": "🔪 酱魂叉烧肉",
+    "category": "炖品",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "卷王肉卷",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "一品鲜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 17
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "红烧酱油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 8.3
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "上海黄酒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 20
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "冰糖",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 3
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "纯净水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 20
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "姜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "蒜瓣",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "葱白",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 6
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "八角",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "将五花肉修整整齐，从宽边卷起成筒，用棉绳每隔三厘米绑紧固定。锅中加入冷水和肉卷，加姜片焯水去血沫，撇净浮沫后捞出冲洗干净。",
+      "重新洗净锅，加入一品鲜、红烧酱油、上海黄酒、纯净水、冰糖、姜片、蒜瓣、葱白段和八角，搅匀后加热至微沸。",
+      "放入肉卷，液面保持没过肉体三分之二，转小火保持轻微冒泡，盖锅炖煮约1小时45分钟至2小时，每二十分钟翻一次面，直至筷子可轻松插透。",
+      "关火后让肉泡在卤汁中自然冷却，冷却至室温后连同卤汁装入保鲜盒，密封冷藏一夜。",
+      "第二天撇去表面凝固油脂，切片时顺纹斜切约0.4厘米厚，上碗前可放入热汤中浸泡回温或用喷枪炙烧提香，最后可淋少量原卤汁或黑蒜香味油上桌。"
+    ],
+    "created_at": "2025-10-24T17:28:33.291Z",
+    "updated_at": "2025-10-29T17:43:13.325Z"
+  },
+  {
+    "id": "recipe-1761329783061",
+    "name": "🥕 油沁萝卜条",
+    "category": "凉菜",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "杀水前的带皮白萝卜条",
+        "unit": "g",
+        "water_loss_pct": 0.2
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "杀水盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": "杀水阶段"
+      },
+      {
+        "name": "大豆油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 3.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "香油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 3.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "切好萝卜条撒盐拌匀静置三十分钟出水",
+      "挤干萝卜条中的水分",
+      "大豆油和香油混合后，烧油至150°c关火稍凉",
+      "把油汁倒入萝卜条中快速拌匀",
+      "放凉后密封冷藏静置两小时入味",
+      "取出前轻轻翻拌均匀即可食用"
+    ],
+    "created_at": "2025-10-24T18:16:23.061Z",
+    "updated_at": "2025-10-24T18:24:35.473Z"
+  },
+  {
+    "id": "recipe-1761913573176",
+    "name": "🐛 葱油",
+    "category": "调料",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "",
+        "name": "大豆油",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "猪油",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 20
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "香葱（全葱）",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 50
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "姜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "八角",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "蒜瓣",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.5
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "锅中放大豆油+猪油，冷油下葱段。",
+      "小火煸5分钟（逼水）。",
+      "中火8分钟（炸香）。",
+      "加姜片、八角、蒜瓣，炸30秒，立刻关火。",
+      "过滤留油，自然冷却。",
+      "调拌面底酱：葱油+酱油底搅匀。"
+    ],
+    "created_at": "2025-10-31T12:26:13.176Z",
+    "updated_at": "2025-10-31T12:26:53.069Z"
+  },
+  {
+    "id": "recipe-1763138145148",
+    "name": "🐐清汤羊杂",
+    "category": "炖品",
+    "tags": [],
+    "main_dims": [
+      {
+        "key": "羊杂",
+        "name": "羊杂",
+        "unit": "g",
+        "water_loss_pct": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "纯净水",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 450
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "葱段",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "姜片",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "大蒜",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 1.8
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "花椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "八角",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.1
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "桂皮",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "香叶",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.1
+        },
+        "round": {
+          "step": 0.2,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "白胡椒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.2
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "味精",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 0.4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "name": "料酒",
+        "bind_to": "total",
+        "rule": {
+          "type": "pct_of_main",
+          "value": 4
+        },
+        "round": {
+          "step": 1,
+          "mode": "nearest"
+        },
+        "unit": "g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      "① 去腥",
+      "\t•\t羊杂清洗 → 盐水浸泡 15–20 分钟",
+      "\t•\t冷水下锅→少量葱姜+料酒 → 大火煮开 2–3 分钟",
+      "\t•\t捞出冲净 → 切片",
+      "② 清汤底（这个版本的灵魂）",
+      "\t•\t清水下锅",
+      "\t•\t加葱、姜、蒜",
+      "\t•\t中火煮开 → 转小火保持轻微冒泡",
+      "\t•\t时间：20–25 分钟",
+      "③ 加香料（注意：时间必须短）",
+      "\t•\t花椒、八角、桂皮、香叶 → 装袋",
+      "\t•\t小火煮 5–6 分钟",
+      "\t•\t到点立刻捞出",
+      "（香料久煮=“药味”，这锅就毁了。）",
+      "④ 下羊杂",
+      "\t•\t羊杂入汤",
+      "\t•\t小火煮 8–10 分钟",
+      "⑤ 调味",
+      "\t•\t盐",
+      "\t•\t白胡椒",
+      "\t•\t味精",
+      "⑥ 出碗",
+      "\t•\t少量香菜、蒜苗",
+      "\t•\t不加油、不加辣子（保持“清真清汤风格”）",
+      "\t•\t客人可自行加醋（回民做法里常见）"
+    ],
+    "created_at": "2025-11-14T16:35:45.148Z"
+  }
+]
