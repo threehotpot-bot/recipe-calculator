@@ -890,7 +890,7 @@
             </div>
             <div class="recipe-selector">
                 <div class="recipe-search">
-                    <input type="text" id="recipeSearch" placeholder="🔍 搜索配方..." autocomplete="off">
+                    <input type="text" id="recipeSearch" placeholder="搜索配方..." autocomplete="off">
                 </div>
                 <div class="recipe-filters">
                     <select id="categoryFilter">
@@ -916,8 +916,8 @@
                             <button type="button" class="clear-btn" id="clearMainWeight" onclick="clearMainWeight()" title="清除输入">×</button>
                         </div>
                         <div class="record-buttons">
-                            <button class="btn small-btn" id="viewRecordsBtn">📊 查看记录</button>
-                            <button class="btn small-btn btn-primary" id="recordBtn">📝 记录本次制作</button>
+                            <button class="btn small-btn" id="viewRecordsBtn">查看记录</button>
+                            <button class="btn small-btn btn-primary" id="recordBtn">记录本次制作</button>
                         </div>
                     </div>
                     
@@ -938,8 +938,8 @@
             
             <!-- 操作按钮 - 横向排列在计算器和配料克数之间 -->
             <div class="input-actions-right" id="inputActionsRight" style="display: none;">
-                <button class="btn-reset" onclick="resetIngredients()">🔄 重新开始</button>
-                <button class="btn-copy" onclick="copyRecipe()">📋 复制配方</button>
+                <button class="btn-reset" onclick="resetIngredients()">重新开始</button>
+                <button class="btn-copy" onclick="copyRecipe()">复制配方</button>
                 <button class="btn-wechat" onclick="sendToWeChat()">💬 发送企业微信</button>
             </div>
 
@@ -963,8 +963,8 @@
                 </table>
                 
         <div class="ingredients-actions" id="ingredientsActions" style="display: none;">
-            <button class="btn-reset" onclick="resetIngredients()">🔄 重新开始</button>
-            <button class="btn-copy" onclick="copyRecipe()">📋 复制配方</button>
+            <button class="btn-reset" onclick="resetIngredients()">重新开始</button>
+            <button class="btn-copy" onclick="copyRecipe()">复制配方</button>
             <button class="btn-wechat" onclick="sendToWeChat()">💬 发送企业微信</button>
         </div>
 
@@ -1864,7 +1864,7 @@
                 
                 let content = `🍽️ ${record.recipeName} 开始制作\n`;
                 content += `📅 制作时间：${currentDate}\n\n`;
-                content += `📊 制作信息：\n`;
+                content += `制作信息：\n`;
                 content += `• 主材：${mainIngredient} ${record.mainIngredientWeight}${record.mainIngredientUnit}\n`;
                 content += `• 预计成品：${finalWeight.toFixed(1)}g\n`;
                 content += `\n---\n`;
@@ -2000,7 +2000,7 @@
                 
                 let text = `🍽️ ${recipe.name} (${recipe.category})\n`;
                 text += `📅 制作时间：${currentDate}\n`;
-                text += `\n📊 配方信息：\n`;
+                text += `\n配方信息：\n`;
                 text += `• ${mainIngredient}：${mainWeight}g\n`;
                 
                 if (results.water_loss !== undefined && results.final_weight !== undefined) {
@@ -2008,7 +2008,7 @@
                     text += `• 成品约：${results.final_weight.toFixed(1)}g\n`;
                 }
                 
-                text += `\n📝 配料清单：\n`;
+                text += `\n配料清单：\n`;
                 
                 // 添加配料信息
                 recipe.ingredients.forEach(ingredient => {
@@ -2022,7 +2022,7 @@
                     }
                 });
                 
-                text += `\n🔧 操作步骤：\n`;
+                text += `\n操作步骤：\n`;
                 if (recipe.steps && recipe.steps.length > 0) {
                     recipe.steps.forEach((step, index) => {
                         text += `${index + 1}. ${step}\n`;
@@ -2122,7 +2122,7 @@
                 
                 let content = `🍽️ ${recipe.name} (${recipe.category})\n`;
                 content += `📅 制作时间：${currentDate}\n\n`;
-                content += `📊 配方信息：\n`;
+                content += `配方信息：\n`;
                 content += `• ${mainIngredient}：${mainWeight}g\n`;
                 
                 if (results.water_loss !== undefined && results.final_weight !== undefined) {
@@ -2130,7 +2130,7 @@
                     content += `• 成品约：${results.final_weight.toFixed(1)}g\n`;
                 }
                 
-                content += `\n📝 配料清单：\n`;
+                content += `\n配料清单：\n`;
                 
                 // 添加配料信息
                 recipe.ingredients.forEach(ingredient => {
@@ -2193,7 +2193,7 @@
             const refreshInterval = 5 * 60 * 1000; // 5分钟强制刷新一次
             
             if (!lastRefresh || (now - parseInt(lastRefresh)) > refreshInterval) {
-                console.log('🔄 执行强制刷新...');
+                console.log('执行强制刷新...');
                 localStorage.setItem('lastPageRefresh', now.toString());
                 
                 // 清除缓存并重新加载
@@ -2420,11 +2420,11 @@
                     second: '2-digit'
                 });
                 
-                let content = `📦 配料备货通知\n`;
+                let content = `配料备货通知\n`;
                 content += `📅 时间：${currentDate}\n`;
                 content += `🥘 菜品：${recipeName}\n`;
                 content += `👨‍🍳 主材：${mainIngredient} ${mainWeight}g\n\n`;
-                content += `🎯 需要备货：\n`;
+                content += `需要备货：\n`;
                 content += `• ${ingredientName}：${quantity}\n\n`;
                 content += `⏰ 请后厨准备以上配料`;
                 
